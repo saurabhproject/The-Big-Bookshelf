@@ -1,0 +1,63 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  	<display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>ReviewPaymentServlet</servlet-name>
+  	<display-name>ReviewPaymentServlet</display-name>
+  	<description></description>
+  	<servlet-class>net.codejava.ReviewPaymentServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ExecutePaymentServlet</servlet-name>
+  	<display-name>ExecutePaymentServlet</display-name>
+  	<description></description>
+  	<servlet-class>net.codejava.ExecutePaymentServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>OrderCreation</servlet-name>
+  	<display-name>OrderCreation</display-name>
+  	<description></description>
+  	<servlet-class>com.razorpay.OrderCreation</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AuthorizePaymentServlet1</servlet-name>
+  	<display-name>AuthorizePaymentServlet1</display-name>
+  	<description></description>
+  	<servlet-class>net.codejava.AuthorizePaymentServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AuthorizePaymentServlet2</servlet-name>
+  	<display-name>AuthorizePaymentServlet2</display-name>
+  	<description></description>
+  	<servlet-class>net.codejava.AuthorizePaymentServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AuthorizePaymentServlet</servlet-name>
+  	<display-name>AuthorizePaymentServlet</display-name>
+  	<description></description>
+  	<servlet-class>net.codejava.AuthorizePaymentServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>ReviewPaymentServlet</servlet-name>
+  	<url-pattern>/review_payment</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ExecutePaymentServlet</servlet-name>
+  	<url-pattern>/ExecutePaymentServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>OrderCreation</servlet-name>
+  	<url-pattern>/OrderCreation</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AuthorizePaymentServlet1</servlet-name>
+  	<url-pattern>/AuthorizePaymentServlet1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AuthorizePaymentServlet</servlet-name>
+  	<url-pattern>/authorize_payment</url-pattern>
+  </servlet-mapping>
+</web-app>
